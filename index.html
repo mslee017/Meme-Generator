@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>A Spicy Meme Generator</h1>
+  <h3>The Ultimate Way Of Creating Memes!</h3>
+  <form class="create">
+   <ul class="wrapper">
+     <li class="form-row">
+       <label for="image">Enter Image URL</label>
+       <input type="text" class="url">
+     </li>
+     <li class="form-row">
+       <label for="Top Text">Upper Text Should Say</label>
+       <input type="text" id="upper">
+     </li>
+     <li class="form-row">
+       <label for="Lower Text">Lower Text Should Say</label>
+       <input type="text" id="lower">
+     </li>
+     <li class="form-row">
+       <button type="submit" class="submit">Submit Your Meme!</button>
+     </li>
+    </ul>
+   </form>
+    <div class="container">
+      <div class="hold-images">
+        <div class="images" style="background-image: url('https://i.picsum.photos/id/439/200/200.jpg')">
+          <div class="upper">Upper Goes Here</div>
+          <div class="lower">Lower Goes Here</div>
+        </div>
+        <div class="container-remove">
+          <div class="button-remove">Delete Meme</div>
+        </div>
+      </div>
+    </div>
+  <script src="app.js"></script>
+</body>
+</html>
